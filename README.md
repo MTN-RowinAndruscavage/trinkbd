@@ -11,19 +11,21 @@ Load up a directory with text files and go to town.
 Also blinks the neopixel to correspond to the ASCII keycodes.
 
 USAGE:
+======
 
 This has several modes:
 
-  Single click BOOT: Print current line.
-  Double click BOOT: Select next line.
-  Triple click BOOT: Load next text file.
-  Long click BOOT: toggle continuous mode within a text file.
-  RST: resets me.
-  Hold down BOOT after releasing RST: USB drive mode - modify my code or edit files in "texts" directory.
-  Hold down BOOT while releasing RST: UF2 Firmware update mode (don't kill me!).
+  - Single click BOOT: Print current line.
+  - Double click BOOT: Select next line.
+  - Triple click BOOT: Load next text file.
+  - Long click BOOT: toggle continuous mode within a text file.
+  - RST: resets me.
+  - Hold down BOOT after releasing RST: USB drive mode - modify my code or edit files in "texts" directory.
+  - Hold down BOOT while releasing RST: UF2 Firmware update mode (don't kill me!).
 
 
 INSTALLATION:
+=============
 
 You will need to copy the following CircuitPython Libraries to your device's lib/ dir
 https://circuitpython.org/libraries
@@ -34,6 +36,7 @@ https://circuitpython.org/libraries
 
 
 LIMITATIONS:
+============
 
 The entire text file is loaded into memory as an array of strings, so you'll probably run out of memory with large files.
 
