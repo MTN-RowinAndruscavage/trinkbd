@@ -2,9 +2,12 @@ Hi!  I'm your ghostwriter!  Long press the "BOOT" button for more info.
 Single click BOOT: Print current line.
 Double click BOOT: Select next line.
 Triple click BOOT: Load next text file.
-Long click BOOT: toggle continuous mode within a text file.
+Long click BOOT: toggle continuous typing within a text file.
 RST: resets me.
-Hold down BOOT after releasing RST: USB drive mode - modify my code or edit files in "texts" directory.
-Hold down BOOT while releasing RST: UF2 Firmware update mode (don't kill me!).
+Hold down BOOT after releasing RST: enable USB storage mode - modify my code or edit files in "texts/" directory.
+Hold down BOOT while releasing RST: UF2 Firmware update mode.
+
+| https://github.com/MTN-RowinAndruscavage/trinkbd/
+ \_/\_/\_/\_/\_/\_/\_^_^_^_._._._
 
 Would you like to see those options again?  Heck, let me give them to you anyway!
